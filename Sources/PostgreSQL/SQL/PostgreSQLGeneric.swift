@@ -98,8 +98,3 @@ public typealias PostgreSQLTableConstraint = GenericSQLTableConstraint<
 
 /// See `SQLQuery`.
 public typealias PostgreSQLTableIdentifier = GenericSQLTableIdentifier<PostgreSQLIdentifier>
-
-/// See `SQLQuery`.
-public typealias PostgreSQLUpdate = GenericSQLUpdate<
-    PostgreSQLTableIdentifier, PostgreSQLIdentifier, PostgreSQLExpression
->
